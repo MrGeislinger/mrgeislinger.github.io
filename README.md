@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Mr. Geislinger
+
+Hi, I'm Victor. (Ignore that junk below for now since the site is under construction.)
 
 You can use the [editor on GitHub](https://github.com/MrGeislinger/mrgeislinger.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
