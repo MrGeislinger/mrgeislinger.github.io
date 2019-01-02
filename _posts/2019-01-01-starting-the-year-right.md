@@ -1,9 +1,9 @@
 ---
-title:
+title: "Starting the Year Right"
 layout: post
 ---
 
-#Starting the Year Right
+# Starting the Year Right
 
 I woke up this morning and I thought, OK here we go. It was later than I usually run and my stomach was lightweight bugging me but I was determined to go for a run. When I got out to start the new year with that crisp 8am air and it felt great! For a mile...
 
