@@ -11,3 +11,7 @@ After that first mile, my stomach started up again. I thought maybe I could keep
 
 But I already knew that morning that I couldn't let this be how the year started. I needed to go again that day.
 
+
+So after an IKEA trip (yay IKEA furniture!) and a late lunch, I went for another run! This time did about 4.5 - 5 km though it looks like my GPS crapped out on me on the 1st half mile. But it still ended up being the most I've ran in one day for months! It's got me thinking maybe I could do some two-a-days in the near future...
+
+
