@@ -13,3 +13,8 @@ Kaggle profile: [kaggle.com/mrgeislinger](https://www.kaggle.com/mrgeislinger)
 GitHub profile of different projects: [github.com/MrGeislinger](https://github.com/MrGeislinger)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=MrGeislinger&count_private=true&show_icons=true)
+
+
+## Blog Posts & Projects
+
+* [Blog](https://blog.mrgeislinger.com/blog/)
