@@ -6,5 +6,8 @@
 
 Link to my current resume: [resume.mrgeislinger.com](http://resume.mrgeislinger.com)
 
+LinkedIn: [linkedin.com/in/mrgeislinger](https://www.linkedin.com/in/mrgeislinger/)
 
-GitHub profile of different projects: [github.com/MrGeislinger](https://github.com/MrGeislinger) 
+GitHub profile of different projects: [github.com/MrGeislinger](https://github.com/MrGeislinger)
+
+Kaggle profile: [kaggle.com/mrgeislinger](https://www.kaggle.com/mrgeislinger)
