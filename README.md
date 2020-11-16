@@ -8,6 +8,8 @@ Link to my current resume: [resume.mrgeislinger.com](http://resume.mrgeislinger.
 
 LinkedIn: [linkedin.com/in/mrgeislinger](https://www.linkedin.com/in/mrgeislinger/)
 
+Kaggle profile: [kaggle.com/mrgeislinger](https://www.kaggle.com/mrgeislinger)
+
 GitHub profile of different projects: [github.com/MrGeislinger](https://github.com/MrGeislinger)
 
-Kaggle profile: [kaggle.com/mrgeislinger](https://www.kaggle.com/mrgeislinger)
+![Github stats](https://github-readme-stats.vercel.app/api?username=MrGeislinger&count_private=true&show_icons=true)
