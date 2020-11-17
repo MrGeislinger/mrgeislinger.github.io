@@ -135,3 +135,7 @@ git merge upstream/main
 ```
 
 > If you want to go into more detail, you might want to checkout this set of [fork tutorials](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/working-with-forks) from GitHub.
+
+Also, feel free to checkout the accompanying [video](https://youtu.be/q2fQMD1gLPI) on syncing GitHub forks!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q2fQMD1gLPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
