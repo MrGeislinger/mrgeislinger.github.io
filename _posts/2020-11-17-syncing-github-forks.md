@@ -24,13 +24,13 @@ Before we get into any specific details about dealing with GitHub's forks, it mi
 
 A fork is actually not part of the [git version control system](https://git-scm.com/) that hosting services like [GitHub](https://github.com) & [GitLab](https://gitlab.com)  is built on top of. A fork is simply a repository with some nifty extra features that can make collaborating on platforms like GitHub easier. You "fork" a project's repository, or _repo_, which will create a copy of that repository with the same commits, branches, and of course files.
 
-![Repo visualized with commits on two branches]({{site.url}}/images/syncing-github-forks/git_repo_with_branched.png)
+![Repo visualized with commits on two branches]({{site.url}}/images/syncing-github-forks/git_repo_with_branch.png)
 
 When you fork a repo, you will create a new repo from that original repo at that point in time. You can then modify your new fork starting from the original's history. What's also nice is that you can keep a little record tying your fork to the original repo.
 
 I like to think of forks as a kind of "super branch" of the original repository. When you create a branch, you have a shared commit history and a shared common commit ancestor. And now both branches can be changed independently from another. Similarly, both the original repo and fork have a shared point in time where they are identical. They can then be independently worked on as new commits are added.
 
-***TOOD: Add image of "forking"; keeping all the branches into new repo***
+![Forked repo to the right of original repo complete with exact history]({{site.url}}/images/syncing-github-forks/forked_repo.png)
 
 We can create a new branch, make some new commits, and then merge them. This way both branches include each other's past commit histories. Merging branches is a powerful tool, if only we could do this with forks...
 
@@ -47,6 +47,8 @@ Well, a fork is really similar to a branch. So it turns out we can basically use
 
 Let's recall the situation:
 > You already forked a repo. Maybe you even added your spice to this forked repo and made some commits. Then you see the original repo has made some changes. You want to incorporate the new history into your forked repo without having to completely start over.
+
+![Forked repo & original repo have new commits]({{site.url}}/images/syncing-github-forks/forked_repo_with_new_commits.png)
 
 ### Solution is Syncing: Incorporate Changes from Original to Forked Repo
 
