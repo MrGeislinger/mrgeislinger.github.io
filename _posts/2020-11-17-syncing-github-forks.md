@@ -16,7 +16,7 @@ Then you see while you've been fiddling with your version of the project the ori
 
 But you know you're better than that! You're one bad-ass learning whatever you need. And you figure others have had the same exact issue themselves when working on a new project. So there has to be a better way. 
 
-There is a better way! Enter GitHub **forks**! However, there is a caveat. Almost all solutions bring in the baggage of extra complexity. We specifically need to discuss syncing your fork. If you're not sure what a fork is exactly, the next section will give you a brief overview. If you're familiar enough with the forking concepts, you can skip the next section and go to [here](#working-with-parallel-universes).
+There is a better way! Enter GitHub **forks**! However, there is a caveat. Almost all solutions bring in the baggage of extra complexity. We specifically need to discuss syncing your fork. If you're not sure what a fork is exactly, the next section will give you a brief overview. If you're familiar enough with the forking concepts, you can skip the next section.
 
 ## What the Fork?
 
@@ -28,18 +28,18 @@ A fork is actually not part of the [git version control system](https://git-scm.
 
 When you fork a repo, you will create a new repo from that original repo at that point in time. You can then modify your new fork starting from the original's history. What's also nice is that you can keep a little record tying your fork to the original repo.
 
-I like to think of forks as a kind of "super branch" of the original repository. When you create branch, you have a shared commit history and a shared common commit ancestor. And now both branches can be changed independently from another. Similarly, both the original repo and fork have a shared point in time where they are identical. They can then be independently worked on as new commits are added.
+I like to think of forks as a kind of "super branch" of the original repository. When you create a branch, you have a shared commit history and a shared common commit ancestor. And now both branches can be changed independently from another. Similarly, both the original repo and fork have a shared point in time where they are identical. They can then be independently worked on as new commits are added.
 
 ***TOOD: Add image of "forking"; keeping all the branches into new repo***
 
-With branches we can create a new branch, make some new commits, and then merge them. This way both branches include each other's past commit histories. Merging branches is a powerful tool, if only we could do this with forks...
+We can create a new branch, make some new commits, and then merge them. This way both branches include each other's past commit histories. Merging branches is a powerful tool, if only we could do this with forks...
 
-Well, we can! This is why forks are so great for collaboration; you can take someone's work, make some changes and then merge the repositories together. (Technically they're between two branches from each repo.) GitHub calls these [_pull requests_](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork). We won't go into all that here (maybe for another time). Instead we're going to discuss what we do after we fork and the original project gets ahead of your fork.
+Well, we can! This is why forks are so great for collaboration; you can take someone's work, make some changes, and then merge the repositories together. (Technically they're between two branches from each repo.) GitHub calls these [_pull requests_](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork). We won't go into all that here (maybe for another time). Instead we're going to discuss what we do after we fork and the original project gets ahead of your fork.
 
 
 ## Working with Parallel Universes
 
-Branching is often compared to _"parallel universes"_ in that when a branch is created, it shares a common (commit) history with a branch. After that point, each branch can continue on its own history. If you later want to incorporate some changes from a branch into a different one, we can do a [`merge`](https://git-scm.com/docs/git-merge) on the branch. 
+Branching is often compared to _"parallel universes"_ in that when a branch is created, it shares a common (commit) history with a branch. After that point, each branch can continue on its own history. If you later want to incorporate some changes from a branch into a different one, we can do a [_merge_](https://git-scm.com/docs/git-merge) on the branch. 
 
 > For the record, there is a great tutorial from Atlassian on [git merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge).
 
@@ -52,7 +52,7 @@ Let's recall the situation:
 
 #### Step 1: Add a remote to the original repo
 
-We first need to configure a remote pointing to the original repo you forked. This will allow your repo to know where to look to for the updated history of the original repo.
+We first need to configure a remote pointing to the original repo you forked. This will allow your repo to know where to look for the updated history of the original repo.
 
 To do this, we open up a terminal on our computer and navigate to our (forked) repo. Next we add a new remote repository called `upstream` which will point to the original repo:
 
@@ -96,7 +96,7 @@ This leads us to the moment we've been waiting for; merging the changes into our
 
 The really cool thing is if you're comfortable with merging, it's the same process!
 
-First, make sure you're on the proper branch in your forked repo where you want the changes to be included in. You might have to do a _checkout_ like `git checkout main`.
+First, make sure you're on the proper branch in your forked repo where you want the changes to be included. You might have to do a _checkout_ like `git checkout main`.
 
 Once you're sure you're on the proper branch, we can merge the changes from the original repo (`upstream`) branch. The command will be something like this depending on the branch name:
 
