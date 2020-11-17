@@ -8,7 +8,7 @@ categories: github forks tutorial
 
 # Keeping Your Forks Synced
 
-![Repo representation with arrow pointing to a different repo representation with the GitHub logo centered below "Syncing Forks"]({{site.url}}/images/syncing-github-forks/forked_repo.png)
+![Repo representation with arrow pointing to a different repo representation with the GitHub logo centered below "Syncing Forks"]({{site.url}}/images/syncing-github-forks/title_page.png)
 
 So you've heard this *GitHub* thing is pretty sweet on collaboration.
 
