@@ -24,7 +24,7 @@ Before we get into any specific details about dealing with GitHub's forks, it mi
 
 A fork is actually not part of the [git version control system](https://git-scm.com/) that hosting services like [GitHub](https://github.com) & [GitLab](https://gitlab.com)  is built on top of. A fork is simply a repository with some nifty extra features that can make collaborating on platforms like GitHub easier. You "fork" a project's repository, or _repo_, which will create a copy of that repository with the same commits, branches, and of course files.
 
-***TODO: Add image of clicking a fork***
+![Repo visualized with commits on two branches]({{site.url}}/images/syncing-github-forks/git_repo_with_branched.png)
 
 When you fork a repo, you will create a new repo from that original repo at that point in time. You can then modify your new fork starting from the original's history. What's also nice is that you can keep a little record tying your fork to the original repo.
 
