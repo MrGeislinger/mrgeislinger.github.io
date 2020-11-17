@@ -1,9 +1,14 @@
 ---
 title: "Syncing GitHub Forks"
-layout: post
+layout: page
+permalink: /syncing-github-forks/
+date: 2020-11-17 07:00:00 -0000
+categories: github forks tutorial
 ---
 
 # Keeping Your Forks Synced
+
+![Repo representation with arrow pointing to a different repo representation with the GitHub logo centered below "Syncing Forks"]({{site.url}}/images/syncing-github-forks/title_page.png)
 
 So you've heard this *GitHub* thing is pretty sweet on collaboration.
 
@@ -13,7 +18,7 @@ Then you see while you've been fiddling with your version of the project the ori
 
 But you know you're better than that! You're one bad-ass learning whatever you need. And you figure others have had the same exact issue themselves when working on a new project. So there has to be a better way. 
 
-There is a better way! Enter GitHub **forks**! However, there is a caveat. Almost all solutions bring in the baggage of extra complexity. We specifically need to discuss syncing your fork. If you're not sure what a fork is exactly, the next section will give you a brief overview. If you're familiar enough with the forking concepts, you can skip the next section and go to [here](#working-with-parallel-universes).
+There is a better way! Enter GitHub **forks**! However, there is a caveat. Almost all solutions bring in the baggage of extra complexity. We specifically need to discuss syncing your fork. If you're not sure what a fork is exactly, the next section will give you a brief overview. If you're familiar enough with the forking concepts, you can skip the next section.
 
 ## What the Fork?
 
@@ -21,22 +26,22 @@ Before we get into any specific details about dealing with GitHub's forks, it mi
 
 A fork is actually not part of the [git version control system](https://git-scm.com/) that hosting services like [GitHub](https://github.com) & [GitLab](https://gitlab.com)  is built on top of. A fork is simply a repository with some nifty extra features that can make collaborating on platforms like GitHub easier. You "fork" a project's repository, or _repo_, which will create a copy of that repository with the same commits, branches, and of course files.
 
-***TODO: Add image of clicking a fork***
-
 When you fork a repo, you will create a new repo from that original repo at that point in time. You can then modify your new fork starting from the original's history. What's also nice is that you can keep a little record tying your fork to the original repo.
 
-I like to think of forks as a kind of "super branch" of the original repository. When you create branch, you have a shared commit history and a shared common commit ancestor. And now both branches can be changed independently from another. Similarly, both the original repo and fork have a shared point in time where they are identical. They can then be independently worked on as new commits are added.
+I like to think of forks as a kind of "super branch" of the original repository. When you create a branch, you have a shared commit history and a shared common commit ancestor. And now both branches can be changed independently from another. Similarly, both the original repo and fork have a shared point in time where they are identical. They can then be independently worked on as new commits are added.
 
-***TOOD: Add image of "forking"; keeping all the branches into new repo***
+![Forked repo to the right of original repo complete with exact history]({{site.url}}/images/syncing-github-forks/forked_repo.png)
 
-With branches we can create a new branch, make some new commits, and then merge them. This way both branches include each other's past commit histories. Merging branches is a powerful tool, if only we could do this with forks...
+We can create a new branch, make some new commits, and then merge them. This way both branches include each other's past commit histories. Merging branches is a powerful tool, if only we could do this with forks...
 
-Well, we can! This is why forks are so great for collaboration; you can take someone's work, make some changes and then merge the repositories together. (Technically they're between two branches from each repo.) GitHub calls these [_pull requests_](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork). We won't go into all that here (maybe for another time). Instead we're going to discuss what we do after we fork and the original project gets ahead of your fork.
+Well, we can! This is why forks are so great for collaboration; you can take someone's work, make some changes, and then merge the repositories together. (Technically they're between two branches from each repo.) GitHub calls these [_pull requests_](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork). We won't go into all that here (maybe for another time). Instead we're going to discuss what we do after we fork and the original project gets ahead of your fork.
 
 
 ## Working with Parallel Universes
 
-Branching is often compared to _"parallel universes"_ in that when a branch is created, it shares a common (commit) history with a branch. After that point, each branch can continue on its own history. If you later want to incorporate some changes from a branch into a different one, we can do a [`merge`](https://git-scm.com/docs/git-merge) on the branch. 
+![Repo visualized with commits on two branches]({{site.url}}/images/syncing-github-forks/git_repo_with_branch.png)
+
+Branching is often compared to _"parallel universes"_ in that when a branch is created, it shares a common (commit) history with a branch. After that point, each branch can continue on its own history. If you later want to incorporate some changes from a branch into a different one, we can do a [_merge_](https://git-scm.com/docs/git-merge) on the branch. 
 
 > For the record, there is a great tutorial from Atlassian on [git merge](https://www.atlassian.com/git/tutorials/using-branches/git-merge).
 
@@ -45,11 +50,13 @@ Well, a fork is really similar to a branch. So it turns out we can basically use
 Let's recall the situation:
 > You already forked a repo. Maybe you even added your spice to this forked repo and made some commits. Then you see the original repo has made some changes. You want to incorporate the new history into your forked repo without having to completely start over.
 
+![Forked repo & original repo have new commits]({{site.url}}/images/syncing-github-forks/forked_repo_with_new_commits.png)
+
 ### Solution is Syncing: Incorporate Changes from Original to Forked Repo
 
 #### Step 1: Add a remote to the original repo
 
-We first need to configure a remote pointing to the original repo you forked. This will allow your repo to know where to look to for the updated history of the original repo.
+We first need to configure a remote pointing to the original repo you forked. This will allow your repo to know where to look for the updated history of the original repo.
 
 To do this, we open up a terminal on our computer and navigate to our (forked) repo. Next we add a new remote repository called `upstream` which will point to the original repo:
 
@@ -93,7 +100,7 @@ This leads us to the moment we've been waiting for; merging the changes into our
 
 The really cool thing is if you're comfortable with merging, it's the same process!
 
-First, make sure you're on the proper branch in your forked repo where you want the changes to be included in. You might have to do a _checkout_ like `git checkout main`.
+First, make sure you're on the proper branch in your forked repo where you want the changes to be included. You might have to do a _checkout_ like `git checkout main`.
 
 Once you're sure you're on the proper branch, we can merge the changes from the original repo (`upstream`) branch. The command will be something like this depending on the branch name:
 
@@ -120,6 +127,8 @@ $ git merge upstream/main
 
 ## All Set & Synced!
 
+![Forked repo & original repo with new commits incorporated into fork]({{site.url}}/images/syncing-github-forks/forked_repo_with_new_commits_merged.png)
+
 And we're done! Just to review, we added a remote to the original repo, fetched the history, and finally checked out our forked repo's branch and merge the original repo's branch into ours! We could do this like the set of commands below:
 
 ```
@@ -130,3 +139,7 @@ git merge upstream/main
 ```
 
 > If you want to go into more detail, you might want to checkout this set of [fork tutorials](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/working-with-forks) from GitHub.
+
+Also, feel free to checkout the accompanying [video](https://youtu.be/q2fQMD1gLPI) on syncing GitHub forks!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q2fQMD1gLPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
