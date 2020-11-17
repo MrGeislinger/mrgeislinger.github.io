@@ -1,6 +1,9 @@
 ---
 title: "Syncing GitHub Forks"
-layout: post
+layout: page
+permalink: /syncing-github-forks/
+date: 2020-11-17 07:00:00 -0000
+categories: github forks tutorial
 ---
 
 # Keeping Your Forks Synced
