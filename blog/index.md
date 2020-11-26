@@ -13,8 +13,9 @@
   {% for page in site.pages %}
     {% if page.resource == true %}
       {% for pc in page.categories %}
+        {{pc}}
         {% if pc == 'blog' %}
-          <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endif %}   <!-- cat-match-p -->
       {% endfor %}  <!-- page-category -->
     {% endif %}   <!-- resource-p -->
