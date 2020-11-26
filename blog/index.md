@@ -9,8 +9,7 @@
   <li>
     <a href="{{ post.url }}">
       {{ post.title }}
-      <!-- {{post}} -->
-    </a>
+    </a> 
   </li>
   {% endfor %}
 </ul>
