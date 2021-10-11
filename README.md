@@ -1,5 +1,7 @@
 # Victor Geislinger
 
+![Close up of Victor Geislinger dressed in black polo with green plants in the background]({{site.url}}/images/profile/profile.png)
+
 > *Some combination of software engineer, data scientist, and teacher. Sprinkle in a physics & math background and you pretty much got me.*
 
 ## Links to Important Things
