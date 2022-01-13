@@ -25,7 +25,7 @@ GitHub profile of different projects: [github.com/MrGeislinger](https://github.c
 -->
 Most recent YouTube video
 
-[![Thumbnail for "Setting Up SSH Keys for GitHub" YouTube video]({{site.url}}/images/thumbnails/thumbnail-Setting_Up_SSH_Keys_for_GitHub-20220112-v1.webp")]("https://www.youtube.com/embed/8X4u9sca3Io")
+[![Thumbnail for "Setting Up SSH Keys for GitHub" YouTube video]({{site.url}}/images/thumbnails/thumbnail-Setting_Up_SSH_Keys_for_GitHub-20220112-v1.webp)]("https://www.youtube.com/embed/8X4u9sca3Io")
 
 
 * [Flatiron School Graduation (2021-10-14)](https://docs.google.com/presentation/d/1RWtdA6D3pEuZVhygppfQ0DMudAdeA8bTt-t1o2gWAgQ/edit?usp=sharing)
