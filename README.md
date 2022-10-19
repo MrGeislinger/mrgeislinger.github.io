@@ -7,13 +7,18 @@
 
 Link to my current resume: [resume.mrgeislinger.com](http://resume.mrgeislinger.com)
 
-LinkedIn: [linkedin.com/in/mrgeislinger](https://www.linkedin.com/in/mrgeislinger/)
+- LinkedIn: [linkedin.com/in/mrgeislinger](https://www.linkedin.com/in/mrgeislinger/)
+- YouTube: [MrGeislinger](https://www.youtube.com/channel/UCPr9pMzkuMIlSvkxyEv1IoQ)
+- Twitter: [@MrGeislinger](https://twitter.com/MrGeislinger)
+- Kaggle: [kaggle.com/mrgeislinger](https://www.kaggle.com/mrgeislinger)
+- Articles on Medium: [mrgeislinger.medium.com/](https://mrgeislinger.medium.com/)
+- Coursera (Instructor Page): [coursera.org/instructor/victor](https://www.coursera.org/instructor/victor)
+- GitHub profile of different projects: [github.com/MrGeislinger](https://github.com/MrGeislinger)
 
-Kaggle profile: [kaggle.com/mrgeislinger](https://www.kaggle.com/mrgeislinger)
-
-GitHub profile of different projects: [github.com/MrGeislinger](https://github.com/MrGeislinger)
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=MrGeislinger&count_private=true&show_icons=true)
+
+
 
 
 ## Recent
