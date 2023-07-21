@@ -9,6 +9,8 @@ Link to my current resume: [resume.mrgeislinger.com](http://resume.mrgeislinger.
 
 - LinkedIn: [linkedin.com/in/mrgeislinger](https://www.linkedin.com/in/mrgeislinger/)
 - YouTube: [MrGeislinger](https://www.youtube.com/channel/UCPr9pMzkuMIlSvkxyEv1IoQ)
+- Threads: [@VictorsOtherVector](https://www.threads.net/@victorsothervector)
+- Mastodon: [@sigmoid.social/@VictorsOtherVector](https://sigmoid.social/@VictorsOtherVector)
 - Twitter: [@MrGeislinger](https://twitter.com/MrGeislinger)
 - Kaggle: [kaggle.com/mrgeislinger](https://www.kaggle.com/mrgeislinger)
 - Articles on Medium: [mrgeislinger.medium.com/](https://mrgeislinger.medium.com/)
